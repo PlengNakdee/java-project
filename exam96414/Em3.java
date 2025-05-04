@@ -1,4 +1,3 @@
-// 6596008828 Woradanue Nakdee Group 4
 package exam96414;
 
 import java.util.Scanner;
