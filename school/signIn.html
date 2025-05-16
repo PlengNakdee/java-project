@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign In</title>
+</head>
+
+<style>
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .input-row {
+        display: flex;
+        gap: 4px;
+    }
+    .button {
+        margin-top: 10px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>Student Registration</h1>
+        <div class="input">
+            <div class="input-row">
+                <p>ID</p>
+                <input placeholder="ID" />
+            </div>
+            <div class="input-row">
+                <p>Name</p>
+                <input placeholder="Name" />
+            </div>
+            <div class="input-row">
+                <p>Login Name</p>
+                <input placeholder="Login Name" />
+            </div>
+            <div class="input-row">
+                <p>Password</p>
+                <input placeholder="Password" />
+            </div>
+        </div>
+        <button class="button">Register</button>
+        <a href="./home.html">
+            <button class="button">Back to Home</button>
+        </a>
+    </div>
+</body>
+
+</html>

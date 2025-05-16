@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LogIn</title>
+</head>
+
+<style>
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .input-row {
+        display: flex;
+        gap: 4px;
+    }
+    .button {
+        margin-top: 10px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>Student Login</h1>
+        <div class="input">
+            <div class="input-row">
+                <p>Username</p>
+                <input placeholder="Username" />
+            </div>
+            <div class="input-row">
+                <p>Password</p>
+                <input placeholder="Password" />
+            </div>
+        </div>
+        <button class="button">Login</button>
+        <a href="./home.html">
+            <button class="button">Back to Home</button>
+        </a>
+    </div>
+</body>
+
+</html>
